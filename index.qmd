@@ -7,14 +7,16 @@ Creators (initial authors):
 - Daniel Sabanes Bove, https://github.com/danielinteractive/ and www.linkedin.com/in/danielsabanesbove/
 - Friedrich Pahlke, https://github.com/fpahlke/ and www.linkedin.com/in/pahlke/
 - Kevin Kunzmann, https://github.com/kkmann/ and https://www.linkedin.com/in/kevin-kunzmann-6486a11bb/
-In the current version, changes were done by (later authors):
 - Liming Li, https://github.com/clarkliming
 - Joe Zhu, https://github.com/shajoezhu and http://www.linkedin.com/in/joe-zhu-464b5818
 - Shuang Li, https://github.com/shuangli22
+In the current version, changes were done by (later authors):
+- Andrew Bean, https://www.linkedin.com/in/andrew-bean-83539116/ and https://github.com/andrew-bean
+- Biju (Ryan) Wang, https://www.linkedin.com/in/bijuwang/ and https://github.com/bijuwang
 License: This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.
 To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
-The source files are hosted at https://github.com/openpharma/workshop-r-swe, which is forked from
-the original version at https://github.com/kkmann/workshop-r-swe.
+The source files are hosted at https://github.com/openpharma/workshop-r-swe-md, which is forked from
+the original version at https://github.com/openpharma/workshop-r-swe.
 Important: To use this work you must provide the name of the creators (initial authors), a link to the material, a link to the license, and indicate if changes were made.
 --> 
 
@@ -22,25 +24,16 @@ Welcome to the homepage of the workshop *"Good Software Engineering Practice for
 
 ## Next Event
 
-The next event will be online, live streamed from Roche Shanghai, so perfect for attendees from Asia!
-Please mark the Friday 24th March 2023 and register here:
+The next event will be held on September 26, 2023 as an in-person workshop at the George Washington University, Rockville, MD, US.
+Please register [here](https://todo.com) by TODO.
 
-![](resources/asia-24Mar2023-barcode.png)
-
-Please note that all the content will be in English. 
-Workshop invitations and preparation details for the practice will be sent out in emails.
-This event is sponsored/organized by Roche PD China Data Sciences and advertised also through
-the R User Group (RUG) China. Presenters will be Daniel Sabanes Bove, Liming Li, Shuang Li and Joe Zhu.
-
-We are looking forward to many online participants!
+This event is organized by the ASA BIOP Software Engineering Working Group (SWE WG) as well as the ASA. We are grateful to have received logistic support by ASA BIOP and ASA. The venue is kindly provided by the George Washington University Biostatistics Center. Presenters will be Andrew Bean, Biju Wang and Daniel Sabanes Bove.
 
 ## Communication
 
 We offer a [gitter chat channel](https://matrix.to/#/#workshop-r-swe_community:gitter.im) to communicate before, during, and after the course.
 
 ## Workshop Program
-
-This is the program for 24th March 2023, all times in China Standard Time (GMT+8):
 
 ```{r}
 #| echo: false
@@ -70,4 +63,6 @@ For the course, participants are required to use their own laptop to be able to 
 
 ## Past Events
 
-- 10th February 2023, Basel
+- [10th February 2023, Basel, CH](https://kkmann.github.io/workshop-r-swe/)
+- [24th March 2023, Shanghai, CN](https://openpharma.github.io/workshop-r-swe/)
+- [20th July 2023, San José, CA, US](https://openpharma.github.io/workshop-r-swe-sf/)
