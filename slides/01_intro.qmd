@@ -34,7 +34,7 @@ image: thumbnails/hello.jpg
 
 ::: columns
 ::: {.column width="70%"}
--   Ph.D. from University of Connecticut in 2021
+-   Ph.D. in Statistics from University of Connecticut in 2021
 -   Senior biostatistician at Johnson & Johnson
 -   Member of ASA BIOP working group on Software Engineering (SWE WG)
 -   Feel free to connect 
