@@ -33,8 +33,8 @@ image: thumbnails/hello.jpg
 
 ::: columns
 ::: {.column width="70%"}
--   Ph.D. in Statistics from University of Connecticut in 2021
--   Senior biostatistician at Johnson & Johnson
+-   Ph.D. in Statistics from University of Connecticut, graduated in 2021
+-   Senior biostatistician at Johnson & Johnson since 2021
 -   Member of ASA BIOP working group on Software Engineering (SWE WG)
 -   Feel free to connect 
     [`r fontawesome::fa("linkedin")`](https://www.linkedin.com/in/bijuwang/) 
