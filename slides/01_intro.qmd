@@ -1,6 +1,6 @@
 ---
 title: "1 Introduction"
-author: "Andrew, Biju, Daniel"
+author: "Andrew, Ryan, Daniel"
 description: "Introduction and outline of program.</br>[Photo CC0 by Mabel Amber on pexels.com]{.copyright}"
 image: thumbnails/hello.jpg
 ---
@@ -30,7 +30,7 @@ image: thumbnails/hello.jpg
 :::
 :::
 
-## Biju
+## Ryan
 
 ::: columns
 ::: {.column width="70%"}
@@ -231,6 +231,4 @@ knitr::include_graphics("resources/pkg_graph.png")
   Biju (Ryan) Wang
   [`r fontawesome::fa("github")`](https://github.com/bijuwang)
   [`r fontawesome::fa("linkedin")`](https://www.linkedin.com/in/bijuwang/) 
-- This work is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
-- The source files are hosted at [github.com/openpharma/workshop-r-swe-md](https://github.com/openpharma/workshop-r-swe-md), which is forked from the original version at [github.com/kkmann/workshop-r-swe](https://github.com/kkmann/workshop-r-swe/).
-- Important: To use this work you must provide the name of the creators (initial authors), a link to the material, a link to the license, and indicate if changes were made
+{{< include license_footer.qmd >}}
