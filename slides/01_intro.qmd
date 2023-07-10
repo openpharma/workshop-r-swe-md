@@ -16,10 +16,9 @@ image: thumbnails/hello.jpg
 ::: columns
 ::: {.column width="70%"}
 -   Ph.D. in Statistics from Ohio State: nonparametric Bayes for heavy-tailed data
--   Statistician in Advanced Exploratory Analytics at Novartis
--   Joined Novartis in early-development Oncology in 2017
+-   Statistician at Novartis for 6 years: Advanced Exploratory Analytics
 -   Open-source contributions include R package `OncoBayes2` (Bayesian model-based dose escalation)
--   Member of ASA BIOP working group on Software Engineering (SWE WG) Bayesian MMRM workstream
+-   Member of ASA BIOP working group on Software Engineering (SWE WG), including Bayesian MMRM workstream
 -   Feel free to connect 
     [`r fontawesome::fa("linkedin")`](https://www.linkedin.com/in/andrew-bean-83539116/) 
     [`r fontawesome::fa("github")`](https://github.com/andrew-bean) 
