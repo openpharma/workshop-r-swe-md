@@ -24,8 +24,8 @@ Welcome to the homepage of the workshop *"Good Software Engineering Practice for
 
 ## Next Event
 
-The next event will be held on September 26, 2023 as an in-person workshop at the George Washington University, Rockville, MD, US.
-Please register [here](https://todo.com) by TODO.
+The next event will be held on September 26, 2023 as an in-person workshop at the George Washington University, Biostatistics Center, Suite 750, Rockville, MD, US.
+If you are faculty or staff of George Washington University, please register [here](https://www.eventbrite.com/e/good-software-engineering-practice-for-r-packages-tickets-675076410717?aff=oddtdtcreator) by 21 July to profit from the special early bird registration fee. Afterwards general registration will open at a higher registration fee.
 
 This event is organized by the ASA BIOP Software Engineering Working Group (SWE WG) as well as the ASA. We are grateful to have received logistic support by ASA BIOP and ASA. The venue is kindly provided by the George Washington University Biostatistics Center. Presenters will be Andrew Bean, Biju Wang and Daniel Sabanes Bove.
 
@@ -50,6 +50,7 @@ Prior to the course, participants should
 -   either make sure they have a working R software development setup on their own laptop (up-to-date git/Rtools/R/RStudio) or get access to <https://posit.cloud>. The latter offers a free tier account with 25 hours of computing time per months and can be accessed using ones GitHub.com account.
 
 For the course, participants are required to use their own laptop to be able to participate in the exercises.
+Light breakfast and coffee, as well as lunch, will be provided.
 
 ### Optional reading list
 
