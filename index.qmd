@@ -20,12 +20,12 @@ the original version at https://github.com/openpharma/workshop-r-swe.
 Important: To use this work you must provide the name of the creators (initial authors), a link to the material, a link to the license, and indicate if changes were made.
 --> 
 
-Welcome to the homepage of the workshop *"Good Software Engineering Practice for R Packages"*. In this course participants will learn hands-on skills and tools to engineer reliable R packages used in biostatistics. The day will be a mix of presentations and exercises. Participants need to be comfortable with writing functions in R and use their own laptops.
+Welcome to the homepage of the workshop *"Good Software Engineering Practice for R Packages"*. In this course participants will learn hands-on skills and tools to engineer reliable R packages used in biostatistics. The day will be a mix of presentations and exercises. Participants need already to be comfortable with writing functions in R, and use their own laptops.
 
 ## Next Event
 
 The next event will be held on September 26, 2023 as an in-person workshop at the George Washington University, Biostatistics Center, Suite 750, Rockville, MD, US.
-If you are faculty or staff of George Washington University, please register [here](https://www.eventbrite.com/e/good-software-engineering-practice-for-r-packages-tickets-675076410717?aff=oddtdtcreator) by 21 July to profit from the special early bird registration fee. Afterwards general registration will open at a higher registration fee.
+Please register [here](https://www.eventbrite.com/e/good-software-engineering-practice-for-r-packages-tickets-675076410717?aff=oddtdtcreator) before September 15, 2023.
 
 This event is organized by the ASA BIOP Software Engineering Working Group (SWE WG) as well as the ASA. We are grateful to have received logistic support by ASA BIOP and ASA. The venue is kindly provided by the George Washington University Biostatistics Center. Presenters will be Andrew Bean, Biju Wang and Daniel Sabanes Bove.
 
