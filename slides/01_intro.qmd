@@ -246,4 +246,4 @@ knitr::include_graphics("resources/pkg_graph.png")
   Biju (Ryan) Wang
   [`r fontawesome::fa("github")`](https://github.com/bijuwang)
   [`r fontawesome::fa("linkedin")`](https://www.linkedin.com/in/bijuwang/) 
-{{< include license_footer.qmd >}}
+{{< include _license_footer.qmd >}}

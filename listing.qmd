@@ -1,6 +1,6 @@
 ---
 title: "Slides"
 listing:
-  contents: "slides"
+  contents: "slides/*.qmd"
   sort: "title"
 ---
