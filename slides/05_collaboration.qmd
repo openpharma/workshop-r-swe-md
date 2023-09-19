@@ -5,23 +5,17 @@ description: "Collaboration via GitHub + practical<br/>[Photo CC0 by THIS IS ZUN
 image: thumbnails/collaboration.jpg
 ---
 
-## Disclaimer
-
-</br></br></br>
-
 ```{r, echo = FALSE, results = 'hide'}
 # Workaround for the following Quarto issue (do not remove):
 # Quarto will not render embedded R code unless at least one R code chunk exists
 ```
-
-*Any opinions expressed in this presentation and on the following slides are solely those of the presenter and not necessarily those of their respective employer or company.*
 
 ##  {background-image="resources/scratch.jpg"}
 
 ::: {.absolute bottom="100" left="0" right="500"}
 -   Overview, demo, practical
 -   Can only scratch surface
--   More resources on [website](https://kkmann.github.io/workshop-r-swe/#optional-reading-list)
+-   More resources on [website](https://openpharma.github.io/workshop-r-swe-md/#optional-reading-list)
 :::
 
 ::: footer
