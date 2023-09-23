@@ -93,7 +93,6 @@ readr::read_csv("resources/program.csv", col_types = "cc") |>
 -   We offer a [gitter chat channel](https://matrix.to/#/#workshop-r-swe_community:gitter.im)
     -   use to ask your peers questions
     -   will try to monitor during course
--   Slido: TODO
 
 ## What you will need
 
@@ -107,7 +106,11 @@ readr::read_csv("resources/program.csv", col_types = "cc") |>
 -   Curiosity `r emoji::emoji("curious")`
 -   Positive attitude `r emoji::emoji("smile")`
 
-## Enter slido.com: TODO
+## Enter menti.com: 4813 9580
+
+![](resources/mentimeter_qr_code_intro.png)
+
+##  {background-iframe="https://www.mentimeter.com/app/presentation/alkkfeuwj5b92esd2w7cy7z1ky7t71a3/embed" background-interactive="true"}
 
 ## What do we mean by GSWEP4R\*?
 
