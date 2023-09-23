@@ -55,7 +55,7 @@ image: thumbnails/conclusion.jpg
 - **Version control is key**
     - Multiple people working on code without strong VC $\leadsto$ disaster!
     - There are different options, but git is the defacto standard for R packages
-    - Git needs a friend - use platforms like GitHub/GitLab/Bitbucket
+    - Git needs a friend - use platforms like GitHub or GitLab
 - **Automated CI/CD allows for much quicker iteration**
     - Automate tests to avoid bugs slipping back in
 - **Technology does not solve everything - foster a positive culture**
@@ -68,6 +68,13 @@ image: thumbnails/conclusion.jpg
 -   Versions and licenses along with `NEWS` updates are important
 -   GitHub helps with tagging of release versions
 -   R-Hub helps with checking before CRAN submission
+
+## Shiny
+
+-   Best practices are not just important for R packages, also for Shiny!
+-   Design UI and package structure first, minimize actual Shiny code
+-   Shiny modules help to make the reactivity manageable
+-   Use normal tests for static code, server tests and `shinytest2` for Shiny code
 
 # Closing remarks
 
@@ -96,6 +103,4 @@ image: thumbnails/conclusion.jpg
 
 - Creators (initial authors): 
   Daniel Sabanes Bove [`r fontawesome::fa("github")`](https://github.com/danielinteractive/) [`r fontawesome::fa("linkedin")`](https://www.linkedin.com/in/danielsabanesbove/)
-- In the current version, changes were done by (later authors): 
-  TODO: FILL IN, OR IF NOT APPLICABLE DELETE THIS BULLET
-{{< include license_footer.qmd >}}
+{{< include _license_footer.qmd >}}

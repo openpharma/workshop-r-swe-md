@@ -452,4 +452,4 @@ You'll need few extra steps:
   Joe Zhu [`r fontawesome::fa("github")`](https://github.com/shajoezhu) [`r fontawesome::fa("linkedin")`](http://www.linkedin.com/in/joe-zhu-464b5818)
 - In the current version, changes were done by (later authors): 
   TODO: FILL IN, OR IF NOT APPLICABLE DELETE THIS BULLET
-{{< include license_footer.qmd >}}
+{{< include _license_footer.qmd >}}

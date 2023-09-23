@@ -27,7 +27,7 @@ Welcome to the homepage of the workshop *"Good Software Engineering Practice for
 The next event will be held on September 26, 2023 as an in-person workshop at the George Washington University, Biostatistics Center, Suite 750, Rockville, MD, US.
 Please register [here](https://www.eventbrite.com/e/good-software-engineering-practice-for-r-packages-tickets-675076410717?aff=oddtdtcreator).
 
-This event is organized by the ASA BIOP Software Engineering Working Group (SWE WG) as well as the ASA. We are grateful to have received logistic support by ASA BIOP and ASA. The venue is kindly provided by the George Washington University Biostatistics Center. Presenters will be Andrew Bean, Biju (Ryan) Wang and Daniel Sabanes Bove.
+This event is organized by [`openstatsware`](https://rconsortium.github.io/asa-biop-swe-wg/) as well as the ASA. We are grateful to have received logistic support by ASA BIOP and ASA. The venue is kindly provided by the George Washington University Biostatistics Center. Presenters will be Andrew Bean, Biju (Ryan) Wang and Daniel Sabanes Bove.
 
 ## Communication
 

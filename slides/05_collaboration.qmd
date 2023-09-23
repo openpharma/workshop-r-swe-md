@@ -5,23 +5,17 @@ description: "Collaboration via GitHub + practical<br/>[Photo CC0 by THIS IS ZUN
 image: thumbnails/collaboration.jpg
 ---
 
-## Disclaimer
-
-</br></br></br>
-
 ```{r, echo = FALSE, results = 'hide'}
 # Workaround for the following Quarto issue (do not remove):
 # Quarto will not render embedded R code unless at least one R code chunk exists
 ```
-
-*Any opinions expressed in this presentation and on the following slides are solely those of the presenter and not necessarily those of their respective employer or company.*
 
 ##  {background-image="resources/scratch.jpg"}
 
 ::: {.absolute bottom="100" left="0" right="500"}
 -   Overview, demo, practical
 -   Can only scratch surface
--   More resources on [website](https://kkmann.github.io/workshop-r-swe/#optional-reading-list)
+-   More resources on [website](https://openpharma.github.io/workshop-r-swe-md/#optional-reading-list)
 :::
 
 ::: footer
@@ -273,7 +267,7 @@ gitGraph
 
 - git itself is command line tool for version control
 - **git platforms add UI for collaboration**^[All platforms also available on-premise for enterprise use]
-    - [GitHub.com](https://github.com) de facto standard in R (alternative: [GitLab.com](https://gitlab.com/), [Gitee.com](https://gitee.com/))
+    - [GitHub.com](https://github.com) de facto standard in R (one alternative is e.g. [GitLab.com](https://gitlab.com/))
 - git + GitHub
   - VCS (git)
   - Web hosting of code (GitHub)
@@ -288,7 +282,7 @@ gitGraph
   - [ggplot2](https://github.com/tidyverse/ggplot2)
   - [dplyr](https://github.com/tidyverse/dplyr)
   - [pharmaverse](https://github.com/pharmaverse)
-- 100 million developers on GitHub.com (Jan '23)
+- 100 million developers on GitHub.com (Jan '23), see [GitHub blog](https://github.blog/2023-01-25-100-million-developers-and-counting/)
 - 372 million repositories, 28 million public (Jan '23)
 - 'Facebook' of developers / social coding
 - Discuss problems / propose changes
@@ -377,6 +371,8 @@ sequenceDiagram
 - Creators (initial authors): 
   Kevin Kunzmann [`r fontawesome::fa("github")`](https://github.com/kkmann/) [`r fontawesome::fa("linkedin")`](https://www.linkedin.com/in/kevin-kunzmann-6486a11bb/),
   Shuang Li [`r fontawesome::fa("github")`](https://github.com/shuangli22)
-- In the current version, changes were done by (later authors): 
-  TODO: FILL IN, OR IF NOT APPLICABLE DELETE THIS BULLET
-{{< include license_footer.qmd >}}
+- In the current version, changes were done by (later author): 
+  Daniel Sabanes Bove 
+  [`r fontawesome::fa("github")`](https://github.com/danielinteractive/) 
+  [`r fontawesome::fa("linkedin")`](https://www.linkedin.com/in/danielsabanesbove/)
+{{< include _license_footer.qmd >}}

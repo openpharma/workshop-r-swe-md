@@ -18,7 +18,7 @@ image: thumbnails/hello.jpg
 -   Ph.D. in Statistics from Ohio State: nonparametric Bayes for heavy-tailed data
 -   Statistician at Novartis for 6 years: Advanced Exploratory Analytics
 -   Open-source contributions include R package `OncoBayes2` (Bayesian model-based dose escalation)
--   Member of ASA BIOP working group on Software Engineering (SWE WG), including Bayesian MMRM workstream
+-   Member of `openstatsware` including Bayesian MMRM workstream
 -   Feel free to connect 
     [`r fontawesome::fa("linkedin")`](https://www.linkedin.com/in/andrew-bean-83539116/) 
     [`r fontawesome::fa("github")`](https://github.com/andrew-bean) 
@@ -35,7 +35,7 @@ image: thumbnails/hello.jpg
 ::: {.column width="70%"}
 -   Ph.D. in Statistics from University of Connecticut, graduated in 2021
 -   Senior biostatistician at Johnson & Johnson since 2021
--   Member of ASA BIOP working group on Software Engineering (SWE WG)
+-   Member of `openstatsware`
 -   Feel free to connect 
     [`r fontawesome::fa("linkedin")`](https://www.linkedin.com/in/bijuwang/) 
     [`r fontawesome::fa("github")`](https://github.com/bijuwang)
@@ -54,12 +54,28 @@ image: thumbnails/hello.jpg
 :::
 
 ::: {.column width="70%"}
--   Statistician (Ph.D. in 2013 on Bayesian Model Selection)
+-   Ph.D. in Statistics from University of Zurich, Bayesian Model Selection
 -   Biostatistician at Roche for 5 years, Data Scientist at Google for 2 years, Statistical Software Engineer at Roche for the last 3 years
--   Multiple R packages on CRAN and Bioconductor, co-wrote book on Likelihood and Bayesian Inference, chair of the ASA BIOP working group on Software Engineering (SWE WG)
+-   Multiple R packages on CRAN and Bioconductor, co-wrote book on Likelihood and Bayesian Inference, co-chair of `openstatsware`
 -   Feel free to connect
     [`r fontawesome::fa("linkedin")`](https://www.linkedin.com/in/danielsabanesbove/)
     [`r fontawesome::fa("github")`](https://github.com/danielinteractive)
+:::
+:::
+
+## `openstatsware`
+
+::: columns
+::: {.column width="50%"}
+- Since: 19 August 2022 - just celebrated our 1 year birthday!
+- Where: American Statistical Association (ASA) Biopharmaceutical Section (BIOP)
+- Who: Currently 38 statisticians from 28 organizations
+- Old name: ASA BIOP Software Engineering Working Group (SWE WG)
+- What: Engineer packages and spread best practices
+:::
+
+::: {.column width="50%"}
+![](resources/sticker-new-1200.png){height="300"}
 :::
 :::
 
@@ -233,4 +249,4 @@ knitr::include_graphics("resources/pkg_graph.png")
   Biju (Ryan) Wang
   [`r fontawesome::fa("github")`](https://github.com/bijuwang)
   [`r fontawesome::fa("linkedin")`](https://www.linkedin.com/in/bijuwang/) 
-{{< include license_footer.qmd >}}
+{{< include _license_footer.qmd >}}
