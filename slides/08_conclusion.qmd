@@ -12,7 +12,11 @@ image: thumbnails/conclusion.jpg
 # Quarto will not render embedded R code unless at least one R code chunk exists
 ```
 
-## Enter slido.com: TODO
+## Enter menti.com: 5748 1949
+
+![](resources/mentimeter_qr_code_conclusion.png)
+
+##  {background-iframe="https://www.mentimeter.com/app/presentation/alb2crkut63m8ge3hz137repha3aadu1/embed" background-interactive="true"}
 
 # Take away messages
 
