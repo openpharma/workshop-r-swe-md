@@ -24,7 +24,7 @@ scripts again and again.
 . . .
 
 [{{< fa lightbulb size=2x >}}]{.blue} The idea of creating an R package was born
-because you understood that "copy and paste" R scripts is inefficient and on top
+because you understood that "copy and paste" R scripts is inefficient, and on top
 of that, you want to share your helpful R functions with colleagues and the
 world...
 
@@ -188,7 +188,7 @@ ggplot(effortData, aes(x = "", y = prop, fill = class)) +
 
 ::: {.column width="55%"}
 -   Fulfill regulatory requirements[^1]
--   Save refactoring time when the *PoC* becomes the release version
+-   Save refactoring time when the Proof-of-Concept (*PoC*) becomes the release version
 -   You don't have to be shy any longer about inviting other developers to
     contribute to the package on [GitHub](https://github.com/)
 :::
@@ -245,15 +245,16 @@ Idea: put the code into a package
 1.  Describe the purpose and scope of the package
 2.  Analyse and describe the requirements in clear and simple terms ("prose")
 
-| Obligation level | Key word[^2] | Description    |
-|------------------|:-------------|----------------|
-| Duty             | shall        | "must have"    |
-| Desire           | should       | "nice to have" |
-| Intention        | will         | "optional"     |
+| Obligation level | Key word[^2]     | Description    |
+|------------------|:-----------------|----------------|
+| Duty             | must, shall      | "must have"    |
+| Desire           | should           | "nice to have" |
+| Intention        | may              | "optional"     |
 
 [^2]: [Rupp, C., & SOPHISTen, die. (2009). Requirements-Engineering und
     -Management: Professionelle, iterative Anforderungsanalyse für die Praxis
-    (5. Ed.). Carl Hanser Verlag GmbH & Co. KG.](https://amzn.to/3DdwiBe)
+    (5. Ed.). Carl Hanser Verlag GmbH & Co. KG.](https://amzn.to/3DdwiBe). See
+    also: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/conversational/shall-and-must/)
 
 ## Example - Step 2: Design docs
 
@@ -264,11 +265,11 @@ The R package *simulatr* shall enable the creation of reproducible fake data.
 **Package Requirements**
 
 *simulatr* **shall** provide a function to generate normal distributed random
-data for two independent groups. The function **shall** allow flexible
+data for two independent groups. The function **must** allow flexible
 definition of sample size per group, mean per group, standard deviation per
-group. The reproducibility of the simulated data **shall** be ensured via an
-optional seed It **should** be possible to print the function result. A
-graphical presentation of the simulated data **will** also be possible.
+group. The reproducibility of the simulated data **must** be ensured via an
+optional seed. It **should** be possible to print the function result. The 
+package **may** also facilitate graphical presentation of the simulated data.
 
 ## Example - Step 2: Design docs
 

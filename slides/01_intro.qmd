@@ -224,7 +224,7 @@ knitr::include_graphics("resources/pkg_graph.png")
 -   Quality, burden sharing: open-source [pharmaverse](https://pharmaverse.org/) and others
 -   Open methodological packages can de-risk innovative methods
 -   R packages make (statistical/methodological) code
-    -   testable (with documented evidence thereof, CRF 11)
+    -   testable (with documented evidence thereof, [CFR Part 11](https://en.wikipedia.org/wiki/Title_21_CFR_Part_11))
     -   reusable
     -   shareable
     -   easier to document
