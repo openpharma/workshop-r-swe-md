@@ -16,7 +16,7 @@ image: thumbnails/hello.jpg
 ::: columns
 ::: {.column width="70%"}
 -   Ph.D. in Statistics from Ohio State: nonparametric Bayes for heavy-tailed data
--   Statistician at Novartis for 6 years: Advanced Exploratory Analytics
+-   Statistician at Novartis for 6 years: first Early Development Oncology, now Advanced Exploratory Analytics
 -   Open-source contributions include R package `OncoBayes2` (Bayesian model-based dose escalation)
 -   Member of `openstatsware` including Bayesian MMRM workstream
 -   Feel free to connect 
@@ -136,7 +136,7 @@ readr::read_csv("resources/program.csv", col_types = "cc") |>
 
 -   Applying concept of GxP to SWE with R
 -   Improve **quality** of R code/packages, particularly in regulated enviroments but not limited to!
--   Not a fixed term, we share our perspectives
+-   Not a universal standard; we share our perspectives
 -   Collection of best practices
 -   Do not reinvent the wheel: learn from IT/open source space
 
