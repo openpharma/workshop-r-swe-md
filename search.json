@@ -67,7 +67,7 @@
     "href": "slides/02_r_packages.html#man-folder",
     "title": "2 R packages",
     "section": "man Folder",
-    "text": "man Folder\n\nContains documentation files for the objects in the package in the .Rd format\n\nThe syntax is a bit similar like LaTeX\n\nAll user level objects should be documented\nInternal objects don’t need to be documented, but may be (and I would recommend it)\nOnce upon a time, developers would set up these .Rd files and the NAMESPACE manually. 🥱\nFortunately, nowadays we have roxygen2! 🚀"
+    "text": "man Folder\n\nContains documentation files for the objects in the package in the .Rd format\n\nThe syntax is a bit similar to LaTeX\n\nAll user level objects should be documented\nInternal objects don’t need to be documented, but may be (and I would recommend it)\nOnce upon a time, developers would set up these .Rd files and the NAMESPACE manually. 🥱\nFortunately, nowadays we have roxygen2! 🚀"
   },
   {
     "objectID": "slides/02_r_packages.html#roxygen2-to-the-rescue",
@@ -284,7 +284,7 @@
     "href": "slides/05_collaboration.html#automating-things-with-github",
     "title": "5 Version Control & Collaboration",
     "section": "Automating things with GitHub",
-    "text": "Automating things with GitHub\n\nGitHub provides\n\ncloud compute\nscripting framework (GitHub actions)\n\nAllows task automation, e.g.\n\nrun unittests\nbuild & host documentation\nstatic code analysis (linting)\n\nMost important actions for R: github.com/r-lib/actions\nExtremely useful to enforce best-practices & quality"
+    "text": "Automating things with GitHub\n\nGitHub provides\n\ncloud compute\nscripting framework (GitHub actions)\n\nAllows task automation, e.g.\n\nrun unit tests\nbuild & host documentation\nstatic code analysis (linting)\n\nMost important actions for R: github.com/r-lib/actions\nExtremely useful to enforce best-practices & quality"
   },
   {
     "objectID": "slides/05_collaboration.html#a-typical-github-workflow",
@@ -294,11 +294,11 @@
     "text": "A typical GitHub workflow\n\n\n\n\nsequenceDiagram\n    participant A as Daniel\n    participant GH as GitHub server\n    participant B as Ryan\n    A-&gt;&gt;A: make change locally & commit to &lt;feature&gt;\n    A-&gt;&gt;GH: push commit\n    A-&gt;&gt;GH: open pull request\n    GH-&gt;&gt;GH: run automated checks\n    A-&gt;&gt;B: request review\n    B-&gt;&gt;B: review code\n    B-&gt;&gt;A: request changes\n    A-&gt;&gt;A: implement changes locally & commit\n    A-&gt;&gt;GH: push commit\n    GH-&gt;&gt;GH: run automated checks\n    A-&gt;&gt;B: request review\n    B-&gt;&gt;B: review code\n    B-&gt;&gt;GH: approve changes, unblocking merge\n    A-&gt;&gt;GH: merge &lt;feature&gt; into &lt;main&gt;\n    GH-&gt;&gt;GH: run automated checks on &lt;main&gt;\n    B-&gt;&gt;GH: pull newest version of &lt;main&gt;"
   },
   {
-    "objectID": "slides/05_collaboration.html#looks-awefully-complicated-why",
-    "href": "slides/05_collaboration.html#looks-awefully-complicated-why",
+    "objectID": "slides/05_collaboration.html#looks-awfully-complicated-why",
+    "href": "slides/05_collaboration.html#looks-awfully-complicated-why",
     "title": "5 Version Control & Collaboration",
-    "section": "Looks awefully complicated, why?",
-    "text": "Looks awefully complicated, why?\n\nEfficient collaboration with novice/untrusted contributors\n\nMaintainer: automated checks reduce review burden\nContributor: no need to check manually\n\nBranching promotes asynchronous work on features\nFull history - can always go back\n\n\\(\\leadsto\\) making code-collaboration scalable"
+    "section": "Looks awfully complicated, why?",
+    "text": "Looks awfully complicated, why?\n\nEfficient collaboration with novice/untrusted contributors\n\nMaintainer: automated checks reduce review burden\nContributor: no need to check manually\n\nBranching promotes asynchronous work on features\nFull history - can always go back\n\n\\(\\leadsto\\) making code-collaboration scalable"
   },
   {
     "objectID": "slides/05_collaboration.html#demo",
@@ -340,7 +340,7 @@
     "href": "slides/03_workflow.html#why-practice-good-engineering-2",
     "title": "3 An R Package Engineering Workflow",
     "section": "Why practice good engineering?",
-    "text": "Why practice good engineering?\n\n\n\nDon’t waste time on maintenance\nBe faster with release on CRAN\nDon’t waste time with inefficient and buggy further development\n\n\n\nFulfill regulatory requirements1\nSave refactoring time when the PoC becomes the release version\nYou don’t have to be shy any longer about inviting other developers to contribute to the package on GitHub\n\n\n\nSee also Ensuring Quality"
+    "text": "Why practice good engineering?\n\n\n\nDon’t waste time on maintenance\nBe faster with release on CRAN\nDon’t waste time with inefficient and buggy further development\n\n\n\nFulfill regulatory requirements1\nSave refactoring time when the Proof-of-Concept (PoC) becomes the release version\nYou don’t have to be shy any longer about inviting other developers to contribute to the package on GitHub\n\n\n\nSee also Ensuring Quality"
   },
   {
     "objectID": "slides/03_workflow.html#why-practice-good-engineering-3",
@@ -361,14 +361,14 @@
     "href": "slides/03_workflow.html#example---step-2-design-docs",
     "title": "3 An R Package Engineering Workflow",
     "section": "Example - Step 2: Design docs",
-    "text": "Example - Step 2: Design docs\n\nDescribe the purpose and scope of the package\nAnalyse and describe the requirements in clear and simple terms (“prose”)\n\n\n\n\nObligation level\nKey word1\nDescription\n\n\n\n\nDuty\nshall\n“must have”\n\n\nDesire\nshould\n“nice to have”\n\n\nIntention\nwill\n“optional”\n\n\n\nRupp, C., & SOPHISTen, die. (2009). Requirements-Engineering und -Management: Professionelle, iterative Anforderungsanalyse für die Praxis (5. Ed.). Carl Hanser Verlag GmbH & Co. KG."
+    "text": "Example - Step 2: Design docs\n\nDescribe the purpose and scope of the package\nAnalyse and describe the requirements in clear and simple terms (“prose”)\n\n\n\n\nObligation level\nKey word1\nDescription\n\n\n\n\nDuty\nmust, shall\n“must have”\n\n\nDesire\nshould\n“nice to have”\n\n\nIntention\nmay\n“optional”\n\n\n\nRupp, C., & SOPHISTen, die. (2009). Requirements-Engineering und -Management: Professionelle, iterative Anforderungsanalyse für die Praxis (5. Ed.). Carl Hanser Verlag GmbH & Co. KG.. See also: plainlanguage.gov"
   },
   {
     "objectID": "slides/03_workflow.html#example---step-2-design-docs-1",
     "href": "slides/03_workflow.html#example---step-2-design-docs-1",
     "title": "3 An R Package Engineering Workflow",
     "section": "Example - Step 2: Design docs",
-    "text": "Example - Step 2: Design docs\nPurpose and Scope\nThe R package simulatr shall enable the creation of reproducible fake data.\nPackage Requirements\nsimulatr shall provide a function to generate normal distributed random data for two independent groups. The function shall allow flexible definition of sample size per group, mean per group, standard deviation per group. The reproducibility of the simulated data shall be ensured via an optional seed It should be possible to print the function result. A graphical presentation of the simulated data will also be possible."
+    "text": "Example - Step 2: Design docs\nPurpose and Scope\nThe R package simulatr shall enable the creation of reproducible fake data.\nPackage Requirements\nsimulatr shall provide a function to generate normal distributed random data for two independent groups. The function must allow flexible definition of sample size per group, mean per group, standard deviation per group. The reproducibility of the simulated data must be ensured via an optional seed. It should be possible to print the function result. The package may also facilitate graphical presentation of the simulated data."
   },
   {
     "objectID": "slides/03_workflow.html#example---step-2-design-docs-2",
@@ -410,14 +410,14 @@
     "href": "slides/03_workflow.html#example---step-3-packaging-4",
     "title": "3 An R Package Engineering Workflow",
     "section": "Example - Step 3: Packaging",
-    "text": "Example - Step 3: Packaging\nThe output is impractical, e.g., we need to scroll down:\n\nx &lt;- getSimulatedTwoArmMeans(n1 = 50, n2 = 50, mean1 = 5, mean2 = 7, sd1 = 3, sd2 = 4)\nx\n\n$n1\n[1] 50\n\n$n2\n[1] 50\n\n$mean1\n[1] 5\n\n$mean2\n[1] 7\n\n$sd1\n[1] 3\n\n$sd2\n[1] 4\n\n$data\n    group      values\n1       1 11.15426341\n2       1  8.45452299\n3       1  7.06269975\n4       1  6.56470540\n5       1  7.40552325\n6       1  1.73859569\n7       1  3.12347445\n8       1  1.93974325\n9       1  6.86441692\n10      1  1.57379064\n11      1  6.41030973\n12      1  7.32497941\n13      1  6.92184098\n14      1  3.81385354\n15      1  4.49399007\n16      1 -2.11889574\n17      1  2.83326723\n18      1  9.66247133\n19      1  7.84925995\n20      1  4.33553448\n21      1  0.47900702\n22      1  4.03916893\n23      1  2.70017902\n24      1  6.39859192\n25      1 -0.00673966\n26      1  6.11574549\n27      1  5.97114958\n28      1  3.31410791\n29      1  0.43577374\n30      1  7.02376144\n31      1  7.55931812\n32      1  4.60445732\n33      1 -0.13956705\n34      1  4.10733891\n35      1  5.97011528\n36      1  5.30385987\n37      1  3.68373303\n38      1  8.89799175\n39      1  6.37252908\n40      1  3.18691159\n41      1  2.51462479\n42      1 -1.43398791\n43      1  0.60523141\n44      1  6.25048620\n45      1  3.83485969\n46      1  4.51754425\n47      1  4.94358341\n48      1  9.90726382\n49      1  9.89563900\n50      1  4.79298804\n51      2  6.47990781\n52      2 15.96323515\n53      2  3.16072193\n54      2  7.98699316\n55      2  8.05061582\n56      2  8.26279466\n57      2  6.93546687\n58      2  6.87488665\n59      2 14.56332547\n60      2  6.45719115\n61      2  8.20325495\n62      2  6.33539002\n63      2  3.59057301\n64      2  6.09174305\n65      2  9.87257100\n66      2  9.56751817\n67      2  5.67529181\n68      2  0.01262791\n69      2 10.26863935\n70      2 -2.28335826\n71      2  5.84757806\n72      2  8.56090016\n73      2  4.85550790\n74      2  7.53009446\n75      2 -1.19878509\n76      2  8.94742281\n77      2  7.17724432\n78      2  7.40038704\n79      2  9.57905073\n80      2  9.71338740\n81      2  2.80062345\n82      2  1.25643938\n83      2  5.29646932\n84      2  0.93016638\n85      2  8.15631060\n86      2 -1.04345308\n87      2  9.94152679\n88      2 10.04519024\n89      2  8.61522289\n90      2  7.90924888\n91      2  0.10495860\n92      2  6.11575889\n93      2  4.59054356\n94      2  8.18044160\n95      2  8.32609324\n96      2 13.05027371\n97      2  2.33668757\n98      2  7.89467997\n99      2  5.96578908\n100     2  9.30482148\n\nattr(,\"class\")\n[1] \"SimulationResult\"\n\n\n\nSolution: implement generic function print"
+    "text": "Example - Step 3: Packaging\nThe output is impractical, e.g., we need to scroll down:\n\nx &lt;- getSimulatedTwoArmMeans(n1 = 50, n2 = 50, mean1 = 5, mean2 = 7, sd1 = 3, sd2 = 4)\nx\n\n$n1\n[1] 50\n\n$n2\n[1] 50\n\n$mean1\n[1] 5\n\n$mean2\n[1] 7\n\n$sd1\n[1] 3\n\n$sd2\n[1] 4\n\n$data\n    group     values\n1       1  8.1877959\n2       1  3.1256424\n3       1 -0.7123684\n4       1  8.0062031\n5       1  3.7445666\n6       1  7.4017006\n7       1  6.1451731\n8       1  6.2463508\n9       1  1.1888221\n10      1  2.9174866\n11      1  4.8357047\n12      1  8.2331736\n13      1  1.1846376\n14      1  8.4368164\n15      1  4.0010817\n16      1  0.6943409\n17      1  3.1125980\n18      1  5.1262472\n19      1  3.9734088\n20      1 13.6124691\n21      1  7.4369619\n22      1  1.2381687\n23      1 -1.0984821\n24      1  4.7939574\n25      1  7.4923016\n26      1  6.4631161\n27      1  3.1608185\n28      1  3.3063510\n29      1 10.2147433\n30      1  4.2986013\n31      1  3.2779583\n32      1  8.9760849\n33      1  2.5390404\n34      1  4.1786131\n35      1  7.7717133\n36      1  0.8298876\n37      1  8.4250048\n38      1  2.6576641\n39      1  2.9634827\n40      1  2.7996269\n41      1  9.6266776\n42      1  4.0587047\n43      1  2.6323549\n44      1  6.9446024\n45      1  3.4076686\n46      1  6.7881398\n47      1  2.9491087\n48      1  7.9485885\n49      1  3.9100972\n50      1  7.2749561\n51      2  8.4653003\n52      2 14.9302654\n53      2 11.3485733\n54      2 11.1172145\n55      2  2.2800183\n56      2 -0.5739234\n57      2 12.8155147\n58      2  9.4616718\n59      2  9.1585690\n60      2 10.3036197\n61      2 11.1888311\n62      2  6.1211413\n63      2  8.3097501\n64      2  2.7907841\n65      2  6.1394545\n66      2  7.1140073\n67      2 13.6609817\n68      2  3.7866438\n69      2 15.4840286\n70      2  2.6551264\n71      2  7.1186900\n72      2 13.8645283\n73      2 11.5743349\n74      2 10.0512783\n75      2 11.3151167\n76      2  7.1959914\n77      2  4.5222863\n78      2  5.9756662\n79      2 13.7356258\n80      2 -3.8439783\n81      2 10.3556782\n82      2  5.1055137\n83      2  3.8014568\n84      2  3.7391031\n85      2  0.5242508\n86      2  8.6056499\n87      2  8.7863186\n88      2  3.1955567\n89      2  9.7353865\n90      2  6.8388277\n91      2  7.0221119\n92      2  3.3395549\n93      2  4.6703958\n94      2 -0.3339959\n95      2  9.4980469\n96      2  5.4978992\n97      2 10.8276357\n98      2  8.9799441\n99      2  6.7572795\n100     2  7.9092328\n\nattr(,\"class\")\n[1] \"SimulationResult\"\n\n\n\nSolution: implement generic function print"
   },
   {
     "objectID": "slides/03_workflow.html#example---step-3-packaging-5",
     "href": "slides/03_workflow.html#example---step-3-packaging-5",
     "title": "3 An R Package Engineering Workflow",
     "section": "Example - Step 3: Packaging",
-    "text": "Example - Step 3: Packaging\nGeneric function print:\n\nCodeRoxygenOutput\n\n\n\nprint.SimulationResult &lt;- function(x, ...) {\n    args &lt;- list(n1 = x$n1, n2 = x$n2, \n        mean1 = x$mean1, mean2 = x$mean2, sd1 = x$sd1, sd2 = x$sd2)\n    \n    print(list(\n        args = format(args), \n        data = dplyr::tibble(x$data)\n    ), ...)\n}\nx\n\n\n\n\n#' @title\n#' Print Simulation Result\n#'\n#' @description\n#' Generic function to print a `SimulationResult` object.\n#'\n#' @param x a \\code{SimulationResult} object to print.\n#' @param ... further arguments passed to or from other methods.\n#' \n#' @examples\n#' x &lt;- getSimulatedTwoArmMeans(n1 = 50, n2 = 50, mean1 = 5, \n#'      mean2 = 7, sd1 = 3, sd2 = 4, seed = 123)\n#' print(x)\n#'\n#' @export\n\n\n\n\n\n$args\n   n1    n2 mean1 mean2   sd1   sd2 \n \"50\"  \"50\"   \"5\"   \"7\"   \"3\"   \"4\" \n\n$data\n# A tibble: 100 × 2\n   group values\n   &lt;dbl&gt;  &lt;dbl&gt;\n 1     1  11.2 \n 2     1   8.45\n 3     1   7.06\n 4     1   6.56\n 5     1   7.41\n 6     1   1.74\n 7     1   3.12\n 8     1   1.94\n 9     1   6.86\n10     1   1.57\n# ℹ 90 more rows"
+    "text": "Example - Step 3: Packaging\nGeneric function print:\n\nCodeRoxygenOutput\n\n\n\nprint.SimulationResult &lt;- function(x, ...) {\n    args &lt;- list(n1 = x$n1, n2 = x$n2, \n        mean1 = x$mean1, mean2 = x$mean2, sd1 = x$sd1, sd2 = x$sd2)\n    \n    print(list(\n        args = format(args), \n        data = dplyr::tibble(x$data)\n    ), ...)\n}\nx\n\n\n\n\n#' @title\n#' Print Simulation Result\n#'\n#' @description\n#' Generic function to print a `SimulationResult` object.\n#'\n#' @param x a \\code{SimulationResult} object to print.\n#' @param ... further arguments passed to or from other methods.\n#' \n#' @examples\n#' x &lt;- getSimulatedTwoArmMeans(n1 = 50, n2 = 50, mean1 = 5, \n#'      mean2 = 7, sd1 = 3, sd2 = 4, seed = 123)\n#' print(x)\n#'\n#' @export\n\n\n\n\n\n$args\n   n1    n2 mean1 mean2   sd1   sd2 \n \"50\"  \"50\"   \"5\"   \"7\"   \"3\"   \"4\" \n\n$data\n# A tibble: 100 × 2\n   group values\n   &lt;dbl&gt;  &lt;dbl&gt;\n 1     1  8.19 \n 2     1  3.13 \n 3     1 -0.712\n 4     1  8.01 \n 5     1  3.74 \n 6     1  7.40 \n 7     1  6.15 \n 8     1  6.25 \n 9     1  1.19 \n10     1  2.92 \n# ℹ 90 more rows"
   },
   {
     "objectID": "slides/03_workflow.html#preparation",
@@ -445,7 +445,7 @@
     "href": "slides/01_intro.html#andrew",
     "title": "1 Introduction",
     "section": "Andrew",
-    "text": "Andrew\n\n\n\nPh.D. in Statistics from Ohio State: nonparametric Bayes for heavy-tailed data\nStatistician at Novartis for 6 years: Advanced Exploratory Analytics\nOpen-source contributions include R package OncoBayes2 (Bayesian model-based dose escalation)\nMember of openstatsware including Bayesian MMRM workstream\nFeel free to connect"
+    "text": "Andrew\n\n\n\nPh.D. in Statistics from Ohio State: nonparametric Bayes for heavy-tailed data\nStatistician at Novartis for 6 years: first Early Development Oncology, now Advanced Exploratory Analytics\nOpen-source contributions include R package OncoBayes2 (Bayesian model-based dose escalation)\nMember of openstatsware including Bayesian MMRM workstream\nFeel free to connect"
   },
   {
     "objectID": "slides/01_intro.html#ryan",
@@ -508,7 +508,7 @@
     "href": "slides/01_intro.html#what-do-we-mean-by-gswep4r",
     "title": "1 Introduction",
     "section": "What do we mean by GSWEP4R*?",
-    "text": "What do we mean by GSWEP4R*?\n\n\nApplying concept of GxP to SWE with R\nImprove quality of R code/packages, particularly in regulated enviroments but not limited to!\nNot a fixed term, we share our perspectives\nCollection of best practices\nDo not reinvent the wheel: learn from IT/open source space\n\n\n* Good Software Engineering Practice for R"
+    "text": "What do we mean by GSWEP4R*?\n\n\nApplying concept of GxP to SWE with R\nImprove quality of R code/packages, particularly in regulated enviroments but not limited to!\nNot a universal standard; we share our perspectives\nCollection of best practices\nDo not reinvent the wheel: learn from IT/open source space\n\n\n* Good Software Engineering Practice for R"
   },
   {
     "objectID": "slides/01_intro.html#why-care-about-gswep4r",
@@ -536,7 +536,7 @@
     "href": "slides/01_intro.html#gxp-r",
     "title": "1 Introduction",
     "section": "GxP + R  = ",
-    "text": "GxP + R  = \n\nCore infrastructure packages only through industry\nQuality, burden sharing: open-source pharmaverse and others\nOpen methodological packages can de-risk innovative methods\nR packages make (statistical/methodological) code\n\ntestable (with documented evidence thereof, CRF 11)\nreusable\nshareable\neasier to document"
+    "text": "GxP + R  = \n\nCore infrastructure packages only through industry\nQuality, burden sharing: open-source pharmaverse and others\nOpen methodological packages can de-risk innovative methods\nR packages make (statistical/methodological) code\n\ntestable (with documented evidence thereof, CFR Part 11)\nreusable\nshareable\neasier to document"
   },
   {
     "objectID": "listing.html",
@@ -991,7 +991,7 @@
     "href": "slides/04_quality.html#example-ccr3-1",
     "title": "4 Ensuring Quality",
     "section": "Example: CCR#3",
-    "text": "Example: CCR#3\n\ngetMeanAndMedian &lt;- function(x) {\n    meanValue &lt;- sum(x) / length(x)\n    centerIndices &lt;- ceiling(length(x) / 2)\n    if (length(x) %% 2 == 0) {\n        centerIndices &lt;- c(centerIndices, centerIndices + 1)\n    }\n    medianValue &lt;- sum(x[centerIndices]) / length(centerIndices)\n    c(meanValue, medianValue)\n}\n\nCCR#3 Simplicity \nCCR#4 Single Responsibility Principle (SRP): Has each function a single, well-defined purpose"
+    "text": "Example: CCR#3\n\ngetMeanAndMedian &lt;- function(x) {\n    meanValue &lt;- sum(x) / length(x)\n    centerIndices &lt;- ceiling(length(x) / 2)\n    if (length(x) %% 2 == 0) {\n        centerIndices &lt;- c(centerIndices, centerIndices + 1)\n    }\n    medianValue &lt;- sum(x[centerIndices]) / length(centerIndices)\n    c(meanValue, medianValue)\n}\n\nCCR#3 Simplicity \nCCR#4 Single Responsibility Principle (SRP): does each function have only a single, well-defined purpose"
   },
   {
     "objectID": "slides/04_quality.html#example-ccr4",
@@ -1019,14 +1019,14 @@
     "href": "slides/04_quality.html#example-ccr6",
     "title": "4 Ensuring Quality",
     "section": "Example: CCR#6",
-    "text": "Example: CCR#6\n\n\n\n# returns the mean of x\ngetMean &lt;- function(x) {\n    sum(x) / length(x)\n}\n\n# returns TRUE if the length of x is \n# an even number; FALSE otherwise\nisLengthAnEvenNumber &lt;- function(x) {\n    length(x) %% 2 == 0\n}\n\n# returns the median of x\ngetMedian &lt;- function(x) {\n    centerIndices &lt;- ceiling(length(x) / 2)\n    if (isLengthAnEvenNumber(x)) {\n        centerIndices &lt;- c(centerIndices, \n             centerIndices + 1)\n    }\n    getMean(x[centerIndices])\n}\n\n\nCCR#6 Comments \nCCR#7 Error Handling: Did you include error handling code to gracefully handle exceptions and unexpected situations \n\ngetMean(\"a\":\"z\")\n\nError in “a”:“z” : NA/NaN argument Additionally: Warning messages: In getMean(“a”:“z”) : NAs generated by conversion"
+    "text": "Example: CCR#6\n\n\n\n# returns the mean of x\ngetMean &lt;- function(x) {\n    sum(x) / length(x)\n}\n\n# returns TRUE if the length of x is \n# an even number; FALSE otherwise\nisLengthAnEvenNumber &lt;- function(x) {\n    length(x) %% 2 == 0\n}\n\n# returns the median of x\ngetMedian &lt;- function(x) {\n    centerIndices &lt;- ceiling(length(x) / 2)\n    if (isLengthAnEvenNumber(x)) {\n        centerIndices &lt;- c(centerIndices, \n             centerIndices + 1)\n    }\n    getMean(x[centerIndices])\n}\n\n\nCCR#6 Comments \nCCR#7 Error Handling: Did you include error handling code to gracefully handle exceptions and unexpected situations \n\ngetMean(c(\"a\", \"b\", \"c\"))\n\nError in sum(x) : invalid ‘type’ (character) of argument"
   },
   {
     "objectID": "slides/04_quality.html#example-ccr7",
     "href": "slides/04_quality.html#example-ccr7",
     "title": "4 Ensuring Quality",
     "section": "Example: CCR#7",
-    "text": "Example: CCR#7\n\n# returns the mean of x\ngetMean &lt;- function(x) {\n    tryCatch({\n        sum(x) / length(x)      \n    }, error = function(e) {\n        stop(\"Failed to calculate the mean of 'x': \", e$message)\n    })\n}\n\n# returns TRUE if the length of x is an even number; FALSE otherwise\nisLengthAnEvenNumber &lt;- function(x) {\n    tryCatch({\n        length(x) %% 2 == 0\n    }, error = function(e) {\n        stop(\"Failed to check if 'x' is an even number: \", e$message)\n    })\n}\n\n# returns the median of x\ngetMedian &lt;- function(x) {\n    tryCatch({\n        centerIndices &lt;- ceiling(length(x) / 2)\n        if (isLengthAnEvenNumber(x)) {\n            centerIndices &lt;- c(centerIndices, centerIndices + 1)\n        }\n        getMean(x[centerIndices])            \n    }, error = function(e) {\n        stop(\"Failed to calculate the median of 'x': \", e$message)\n    })\n}\n\nCCR#7 Error Handling"
+    "text": "Example: CCR#7\n\n#' returns the mean of x\ngetMean &lt;- function(x) {\n    checkmate::assertNumeric(x)\n    sum(x) / length(x)\n}\n\n#' returns TRUE if the length of x is an even number; FALSE otherwise\nisLengthAnEvenNumber &lt;- function(x) {\n    checkmate::assertVector(x)\n    length(x) %% 2 == 0\n}\n\n#' returns the median of x\ngetMedian &lt;- function(x) {\n    checkmate::assertNumeric(x)\n    centerIndices &lt;- ceiling(length(x) / 2)\n    if (isLengthAnEvenNumber(x)) {\n        centerIndices &lt;- c(centerIndices, centerIndices + 1)\n    }\n    getMean(x[centerIndices]) \n}\n\nCCR#7 Error Handling"
   },
   {
     "objectID": "slides/04_quality.html#summary-of-clean-code-rules",
@@ -1082,7 +1082,21 @@
     "href": "slides/04_quality.html#how-to-realize-testing-with-r",
     "title": "4 Ensuring Quality",
     "section": "How to realize testing with R?",
-    "text": "How to realize testing with R?\nR package testthat\n\nPopular testing framework for R that is easy to learn and use\nUnit testing, integration testing, and snapshot testing supported\nAlso performance testing, e.g., with help of microbenchmark package\n\nExample: unit test passed\n\nlibrary(testthat)\nobject &lt;- getMean(c(1, 2, 3))\nexpected &lt;- 2\nexpect_equal(object, expected)\n\nExample: unit test failed\n\nexpect_equal(getMean(1:4), 2)\n\n\nError: mean(1:4) (actual) not equal to 2 (expected)."
+    "text": "How to realize testing with R?\nR package testthat\n\nPopular testing framework for R that is easy to learn and use\nUnit testing, integration testing, and snapshot testing supported\nAlso performance testing, e.g., with help of microbenchmark package\n\nExample: unit test passed\n\nlibrary(testthat)\nexpect_equal(getMean(c(1, 3, 2)), 2)\n\nExample: unit test failed\n\nexpect_equal(getMean(c(1, 3, 2, NA)), 2)\nexpect_equal(getMedian(c(1, 3, 2)), 2)\n\n\nError: getMean(c(1, 3, 2, NA)) not equal to 2. Error: getMedian(c(1, 3, 2)) not equal to 2."
+  },
+  {
+    "objectID": "slides/04_quality.html#investigating-failed-tests",
+    "href": "slides/04_quality.html#investigating-failed-tests",
+    "title": "4 Ensuring Quality",
+    "section": "Investigating failed tests",
+    "text": "Investigating failed tests\n\n#' returns the mean of x\ngetMean &lt;- function(x, na.rm = TRUE) {\n    checkmate::assertNumeric(x)\n    sum(x, na.rm = na.rm) / length(x[!is.na(x)])\n}\n\n#' returns TRUE if the length of x is an even number; FALSE otherwise\nisLengthAnEvenNumber &lt;- function(x) {\n    checkmate::assertVector(x)\n    length(x[!is.na(x)]) %% 2 == 0\n}\n\n#' returns the median of x\ngetMedian &lt;- function(x, na.rm = TRUE) {\n    checkmate::assertNumeric(x)\n    centerIndices &lt;- ceiling(length(x[!is.na(x)]) / 2)\n    if(anyNA(x) & !na.rm){\n        centerIndices &lt;- NA_real_\n    } else if (isLengthAnEvenNumber(x)) {\n        centerIndices &lt;- c(centerIndices, centerIndices + 1)\n    }\n    getMean(sort(x)[centerIndices]) \n}"
+  },
+  {
+    "objectID": "slides/04_quality.html#re-evaluate-tests",
+    "href": "slides/04_quality.html#re-evaluate-tests",
+    "title": "4 Ensuring Quality",
+    "section": "Re-evaluate tests",
+    "text": "Re-evaluate tests\n\nexpect_equal(getMedian(c(1, 3, 2)), 2)\nexpect_equal(getMedian(c(1, 3, 2, NA), na.rm = FALSE), NA_real_)\nexpect_equal(getMean(c(1, 3, 2, NA)), 2)\nexpect_equal(getMean(c(1, 3, 2, NA), na.rm = FALSE), NA_real_)"
   },
   {
     "objectID": "slides/04_quality.html#testthat-comparisons-functions-12",
@@ -1166,6 +1180,6 @@
     "href": "slides/04_quality.html#tasks",
     "title": "4 Ensuring Quality",
     "section": "Tasks",
-    "text": "Tasks\n\nTask 1Task 2Task 3Task 4\n\n\nTake your local simulatr package project (see previous excercise) and refactor it, i.e., apply the linked clean code rules:\n\nOptimize naming manually (CCR#1)\nUse the styler package to optimize the formatting (CCR#2)\nCheck and correct where appropriate:\n\nSimplicity (CCR#3)\nSRP (CCR#4)\nDRY (CCR#5)\n\n\n\n\n\nImplement appropriate error handling (CCR#7) in the simulatr package\nAdd comments to explain the purpose of code blocks (CCR#6)\n\nIf it concerns exported functions use Roxygen2 notation\n\nCheck correct spelling with the devtools function spell_check()\n\n\n\nApply CCR#8 to the simulatr package project:\n\nAdd unit tests\nOptimize your test coverage with help of the covr functions package_coverage and report\n\n\n\nCheck if your package is ready for use in production with the devtools function check()"
+    "text": "Tasks\n\nTask 1Task 2Task 3Task 4\n\n\nTake your local simulatr package project (see previous excercise) and refactor it, i.e., apply the linked clean code rules:\n\nOptimize naming manually (CCR#1)\nUse the styler package to optimize the formatting (CCR#2)\nCheck and correct where appropriate:\n\nSimplicity (CCR#3)\nSingle Responsibility Principle (CCR#4)\nDon’t Repeat Yourself (CCR#5)\n\n\n\n\n\nImplement appropriate error handling (CCR#7) in the simulatr package\nAdd comments to explain the purpose of code blocks (CCR#6)\n\nIf it concerns exported functions use Roxygen2 notation\n\nCheck correct spelling with the devtools function spell_check()\n\n\n\nApply CCR#8 to the simulatr package project:\n\nAdd unit tests\nOptimize your test coverage with help of the covr functions package_coverage and report\n\n\n\nCheck if your package is ready for release with the devtools function check()"
   }
 ]
