@@ -450,6 +450,4 @@ You'll need few extra steps:
 - Creators (initial authors): 
   Daniel Sabanes Bove [`r fontawesome::fa("github")`](https://github.com/danielinteractive/) [`r fontawesome::fa("linkedin")`](https://www.linkedin.com/in/danielsabanesbove/),
   Joe Zhu [`r fontawesome::fa("github")`](https://github.com/shajoezhu) [`r fontawesome::fa("linkedin")`](http://www.linkedin.com/in/joe-zhu-464b5818)
-- In the current version, changes were done by (later authors): 
-  TODO: FILL IN, OR IF NOT APPLICABLE DELETE THIS BULLET
 {{< include _license_footer.qmd >}}
