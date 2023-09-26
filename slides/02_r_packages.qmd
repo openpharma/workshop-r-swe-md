@@ -115,7 +115,7 @@ NULL
 ## `man` Folder
 
 - Contains documentation files for the objects in the package in the `.Rd` format
-  - The syntax is a bit similar like `LaTeX`
+  - The syntax is a bit similar to `LaTeX`
 - All user level objects should be documented
 - Internal objects don't need to be documented, but may be (and I would recommend it)
 - Once upon a time, developers would set up these `.Rd` files and the `NAMESPACE` manually. `r emoji::emoji("yawning_face")`

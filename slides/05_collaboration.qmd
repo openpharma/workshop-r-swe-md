@@ -305,7 +305,7 @@ gitGraph
     - cloud compute
     - scripting framework ([GitHub actions](https://github.com/features/actions))
 - Allows task automation, e.g.
-    -   run unittests
+    -   run unit tests
     -   build & host documentation
     -   static code analysis (linting)
 - Most important actions for R: [github.com/r-lib/actions](https://github.com/r-lib/actions)
@@ -336,7 +336,7 @@ sequenceDiagram
     B->>GH: pull newest version of <main>
 ```
 
-## Looks awefully complicated, why?
+## Looks awfully complicated, why?
 
 -   Efficient collaboration with novice/untrusted contributors
     - Maintainer: automated checks reduce review burden

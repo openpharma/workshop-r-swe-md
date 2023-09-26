@@ -7,4 +7,5 @@ Depends:
   fontawesome,
   emoji,
   knitr,
-  testthat
+  testthat,
+  checkmate
